@@ -21,6 +21,10 @@ public class Circle
     {
         return this.radius;
     }
+    public double getCircumference()
+    {
+        return radius*Math.PI*2;
+    }
     public String getColor()
     {
         return this.color;
